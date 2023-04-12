@@ -1,0 +1,56 @@
+.card{
+    font-family: "Gilroy", sans-serif;
+    background-color: #1D1B21;
+    color: #fff;
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    border: none;
+}
+
+.card hr{
+    opacity: 0.1;
+}
+
+.card h5{
+    font-weight: 800;
+}
+
+.card p{
+    opacity: 0.8;
+    font-weight: 800;
+    font-size: 13px;
+}
+
+.card h6{
+    font-size: 15px;
+    font-weight: 800;
+}
+
+.card .otherDetails{
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid rgb(214, 214, 214);
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.card .btn,
+.card .btn:active,
+.card .btn:hover {
+  color: #fff;
+  font-weight: 500;
+  background-image: linear-gradient(to right, #a909f7, #7d19fa);
+  border-radius: 50px;
+  box-shadow: none;
+  border: none;
+}
+
+.darkmode--activated .card{
+    background-color: #fff;
+    color: #1A1A1A;
+}
+.darkmode--activated .card p{
+    color: #1A1A1A;
+}
